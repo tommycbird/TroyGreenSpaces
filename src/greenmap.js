@@ -39,7 +39,7 @@ const greenSpaces = [
     lng: -73.684,
     description: "This park was originally designed in 1903 by local landscape engineer Garnet Douglass Baltimore, the first African-American graduate of Rensselaer Polytechnic Institute. "
     },
-    //Frear Parl
+    //Frear Park
     {
     name: "Frear Park",
     lat: 42.746,
