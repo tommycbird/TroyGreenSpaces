@@ -44,7 +44,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 4rem; /* Adjust this value based on the header height */
+    padding-top: 7rem; /* Adjust this value based on the header height */
   }
   
   #map-container {
