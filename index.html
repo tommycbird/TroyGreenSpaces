@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+  integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+  integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+  crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-ajax/2.1.0/leaflet.ajax.min.js"></script>
+  <title>Troy Green Spaces</title>
+</head>
+<body>
+  <header>
+    <h1>Troy Green Spaces</h1>
+  </header>
+
+  <main>
+    <div id="map-container">
+      <!-- Placeholder for the map -->
+      <div class="rounded-rectangle">
+        <div id="map" style="width: 100%; height: 100%;"></div>
+      </div>
+    </div>
+    <section>
+      <h2>About</h2>
+      <p>
+        Welcome to Troy Green Spaces! This website aims to showcase the beautiful green spaces, 
+        parks, and nature reserves in and around Troy, NY. Explore the map to discover new 
+        places to enjoy nature and learn about the efforts being made to preserve these 
+        precious ecosystems.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Add your footer content here -->
+  </footer>
+
+  <!-- Green Spaces Map JS -->
+  <script src="src/map/troy_boundary.geojson" type="application/json" id="troy-boundary-data"></script>
+  <script src="src/greenmap.js"></script>
+</body>
+</html>
