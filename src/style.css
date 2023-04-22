@@ -1,19 +1,18 @@
 :root {
-    --green: #66b539;
-    --dark-gray: #2B2D42;
-    --gray: #818479;
-    --mint: #e8f7dd;
-  }
+  --green: #66b539;
+  --dark-gray: #2B2D42;
+  --gray: #818479;
+  --mint: #e8f7dd;
+}
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--dark-gray);
+  background-color: var(--mint);
+}
   
-  /* General styles */
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    color: var(--dark-gray);
-    background-color: var(--mint);
-  }
-  
-  /* Header styles */
 /* Header styles */
 header {
   position: fixed;
@@ -27,62 +26,66 @@ header {
   z-index: 1000;
 }
   
-  header h1 {
-    margin: 0;
-  }
+header h1 {
+  margin: 0;
+}
 
-  .logo {
-    max-width: 33%;
-  }
-  
-  
-  nav {
-    /* Add your navigation menu styles here */
-  }
-  
-  /* Main content styles */
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 7rem; /* Adjust this value based on the header height */
-  }
-  
-  #map-container {
-    flex: 1;
-    min-width: 60%;
-    height: 600px;
-    padding: 1rem; /* Add padding around the map container */
-    box-sizing: border-box; /* Include padding in the container dimensions */
-  }
-  
-  .rounded-rectangle {
-    background-color: var(--gray);
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  
-  aside {
-    flex: 1;
-    min-width: 30%;
-    padding: 1rem;
-  }
-  
-  #green-space-list {
-    list-style: none;
-    padding: 0;
-  }
-  
-  /* Footer styles */
-  footer {
-    background: var(--dark-gray);
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 1rem;
-    border-radius: 5px;
-  }
-  
+.logo {
+  max-width: 33%;
+}
+
+
+nav {
+  /* Add your navigation menu styles here */
+}
+
+/* Main content styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 7rem; /* Adjust this value based on the header height */
+}
+
+#map-container {
+  flex: 1;
+  min-width: 60%;
+  height: 600px;
+  padding: 1rem; /* Add padding around the map container */
+  box-sizing: border-box; /* Include padding in the container dimensions */
+}
+
+.rounded-rectangle {
+  background-color: var(--gray);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section {
+  padding: 1rem;
+  font-size: 20px;
+}
+
+aside {
+  flex: 1;
+  min-width: 30%;
+  padding: 1rem;
+}
+
+#green-space-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Footer styles */
+footer {
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  text-align: center;
+  padding: 0.2rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-size: 12px;
+}
