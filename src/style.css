@@ -29,6 +29,10 @@
   header h1 {
     margin: 0;
   }
+
+  .logo {
+    max-width: 50%;
+  }
   
   
   nav {
